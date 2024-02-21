@@ -1,0 +1,13 @@
+special_cases
+exit codes
+
+
+notation *str++ :
+
+ char chaine[] = "Bonjour";
+    char *ptr = chaine;
+
+    while (*ptr) {
+        printf("%c\n", *ptr);
+        ptr++;
+    }
